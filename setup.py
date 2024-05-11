@@ -12,8 +12,8 @@ setup(
     install_requires=[
         "Django>=4.0",
         "schedule>=1.0",
-        "Python>=3.9",
     ],
+    python_requires='>=3.9',
     classifiers=[
         "Development Status :: 4 - Beta",
         "Environment :: Web Environment",
@@ -24,6 +24,8 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
     ],
     include_package_data=True,
     zip_safe=False,
