@@ -1,0 +1,9 @@
+README.md
+setup.py
+django_schedule.egg-info/PKG-INFO
+django_schedule.egg-info/SOURCES.txt
+django_schedule.egg-info/dependency_links.txt
+django_schedule.egg-info/not-zip-safe
+django_schedule.egg-info/requires.txt
+django_schedule.egg-info/top_level.txt
+migrations/__init__.py

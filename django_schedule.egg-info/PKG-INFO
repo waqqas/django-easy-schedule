@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django_schedule
+Version: 0.1
+Summary: Django integration with schedule package
+Home-page: https://github.com/waqqas/django_schedule/
+Author: Waqqas Jabbar
+Author-email: waqqas.jabbar@egmail.com
+License: MIT
+Keywords: django schedule
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Django
+Requires-Dist: schedule
