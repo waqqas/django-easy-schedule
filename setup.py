@@ -2,9 +2,8 @@ from setuptools import find_packages, setup
 
 setup(
     name="django-easy-schedule",
-    version="0.1.4",
-    packages=["django_easy_schedule"],
-    package_dir={"": "."},
+    version="0.1.5",
+    packages=find_packages(),
     description="Django integration with schedule module",
     author="Waqqas Jabbar",
     author_email="waqqas.jabbar@egmail.com",
@@ -32,5 +31,5 @@ setup(
     zip_safe=False,
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    keywords="django schedule",
+    keywords=["django", "schedule"],
 )
