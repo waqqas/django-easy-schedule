@@ -2,8 +2,9 @@ from setuptools import find_packages, setup
 
 setup(
     name="django-easy-schedule",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
+    package_dir={'': '.'},
     description="Django integration with schedule module",
     author="Waqqas Jabbar",
     author_email="waqqas.jabbar@egmail.com",
