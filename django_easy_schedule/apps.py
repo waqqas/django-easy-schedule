@@ -3,7 +3,7 @@ from django.apps import AppConfig
 
 class DjangoScheduleConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "django_schedule"
+    name = "django_easy_schedule"
 
     def ready(self):
         import importlib
