@@ -2,13 +2,13 @@ from setuptools import find_packages, setup
 
 setup(
     name="django-easy-schedule",
-    version="0.1.2",
-    packages=find_packages(),
-    package_dir={'': '.'},
+    version="0.1.3",
+    packages=["django_easy_schedule"],
+    package_dir={"": "."},
     description="Django integration with schedule module",
     author="Waqqas Jabbar",
     author_email="waqqas.jabbar@egmail.com",
-    url="https://github.com/waqqas/django-schedule",
+    url="https://github.com/waqqas/django-easy-schedule",
     license="MIT",
     install_requires=[
         "Django>=4.0",
